@@ -24,8 +24,7 @@ public class Livro {
     private String titulo;
     @Column(nullable = false)
     private Integer quantidade;
-    @ManyToOne
-    private List<Categoria> categoria;
+
 
     public Livro(Long id, Integer isbn, String titulo, Integer quantidade) {
         this.id = id;
@@ -33,4 +32,7 @@ public class Livro {
         this.titulo = titulo;
         this.quantidade = quantidade;
     }
+
+    @ManyToMany
+    private List<Categoria> categoria;
 }
