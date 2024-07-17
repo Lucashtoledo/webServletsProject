@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Entity
+@Entity(name = "categorias")
 public class Categoria {
 
     @Id
@@ -17,4 +17,8 @@ public class Categoria {
     private Long cod_cat;
     @Column(nullable = false)
     private String nome;
+
+    public Categoria(String nome) {
+        this.nome = nome;
+    }
 }

@@ -12,7 +12,7 @@ import java.util.List;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Entity
+@Entity(name = "livros")
 public class Livro {
     @Id
     @Column(nullable = false)
@@ -24,11 +24,10 @@ public class Livro {
     private String titulo;
     @Column(nullable = false)
     private Integer quantidade;
-    @ManyToOne
+    @ManyToMany
     private List<Categoria> categoria;
 
-    public Livro(Long id, Integer isbn, String titulo, Integer quantidade) {
-        this.id = id;
+    public Livro(Integer isbn, String titulo, Integer quantidade) {
         this.isbn = isbn;
         this.titulo = titulo;
         this.quantidade = quantidade;
