@@ -7,6 +7,8 @@
 <body>
 <h1><%= "Hello World!" %></h1>
 <br/>
-<a href="">Hello Servlet</a>
+<a href="/frontend/login.jsp">Login</a>
+<a href="/frontend/cadastroUsuario.jsp">Cadastrar-se</a>
+<a href="/frontend/cadastro_categoria.jsp">Cadastrar categoria</a>
 </body>
 </html>

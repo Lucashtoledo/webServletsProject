@@ -10,17 +10,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8676d734-cf1e-45ab-9a47-1d683c93bd5d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e29c729b-fffb-483f-9aea-7fb618c2d305.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e29c729b-fffb-483f-9aea-7fb618c2d305.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e29c729b-fffb-483f-9aea-7fb618c2d305/storage_v2/_src_/database/projeto1.bld5xA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e29c729b-fffb-483f-9aea-7fb618c2d305/storage_v2/_src_/database/projeto1.bld5xA/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bbf7eb1d-1808-4c60-a867-88283f8227d2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/HelloServlet.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/dao/LivroDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/dao/LivroDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/model/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/model/Categoria.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/model/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/model/Livro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/model/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/model/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/servlet/LoginServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/servlet/UsuarioServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/webapp/WEB-INF/cadastroUsuario.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/webapp/WEB-INF/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +31,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Jsp File" />
         <option value="Class" />
       </list>
     </option>
@@ -42,22 +44,22 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-    &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;Lucashtoledo&quot;
-    }
-    }</component>
-  <component name="GithubPullRequestsUISettings">{
-    &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;git@github.com:Lucashtoledo/webServletsProject.git&quot;,
-    &quot;accountId&quot;: &quot;81492877-8b73-4547-836a-f1456e239a85&quot;
-    }
-    }</component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Lucashtoledo"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:Lucashtoledo/webServletsProject.git",
+    "accountId": "81492877-8b73-4547-836a-f1456e239a85"
+  }
+}]]></component>
   <component name="KubernetesApiPersistence">{}</component>
-  <component name="KubernetesApiProvider">{
-    &quot;isMigrated&quot;: true
-    }</component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -90,7 +92,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Tomcat Server.Tomcat 10.1.25.executor": "Run",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "dev2",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/temp/ws-intellij/webServletsProject",
     "node.js.detected.package.eslint": "true",
@@ -107,7 +109,12 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\temp\ws-intellij\AcademiaJava\webServletsProject\biblioteca\src\main\webapp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 10.1.25">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.academy.Main" />
       <module name="biblioteca" />
@@ -139,7 +146,7 @@
       <deployment>
         <artifact name="biblioteca:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/biblioteca_war_exploded" />
+            <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
@@ -257,6 +264,7 @@
       <workItem from="1721255730539" duration="495000" />
       <workItem from="1721256242576" duration="288000" />
       <workItem from="1721256549143" duration="3604000" />
+      <workItem from="1721262943555" duration="5148000" />
     </task>
     <servers />
   </component>

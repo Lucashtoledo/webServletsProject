@@ -1,12 +1,12 @@
-package org.academy;
+package org.academy.servlet;
 
 import java.io.*;
 
 import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.*;
 
-@WebServlet(name = "helloServlet", value = "/hello-servlet")
-public class HelloServlet extends HttpServlet {
+@WebServlet("/ManutencaoLivros")
+public class ManutencaoLivros extends HttpServlet {
     private String message;
 
     public void init() {
