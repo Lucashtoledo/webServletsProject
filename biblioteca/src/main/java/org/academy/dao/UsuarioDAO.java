@@ -13,6 +13,9 @@ public class UsuarioDAO {
 
     private SessionFactory factory = ServiceDAO.getSessionFactory();
 
+    public UsuarioDAO(SessionFactory sessionFactory) {
+    }
+
     public void salvar(Usuario usuario) {
         Transaction transaction = null;
         try(Session session = factory.openSession()) {

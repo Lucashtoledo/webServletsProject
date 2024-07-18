@@ -10,18 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8676d734-cf1e-45ab-9a47-1d683c93bd5d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bbf7eb1d-1808-4c60-a867-88283f8227d2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/bbf7eb1d-1808-4c60-a867-88283f8227d2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/HelloServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/dao/UsuarioDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/dao/UsuarioDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/model/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/model/Livro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/servlet/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/webapp/WEB-INF/cadastroUsuario.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/src/main/webapp/frontend/cadastroUsuario.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/webapp/WEB-INF/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/src/main/webapp/frontend/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/servlet/UsuarioServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/servlet/UsuarioServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/webapp/frontend/cadastroUsuario.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/src/main/webapp/frontend/cadastroUsuario.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +80,8 @@
   "keyToString": {
     "Application.Main (1).executor": "Run",
     "Application.Main.executor": "Run",
+    "Maven.webServletsProject [clean].executor": "Run",
+    "Maven.webServletsProject [install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Tomcat Server.Tomcat 10.1.25.executor": "Run",
