@@ -1,19 +1,13 @@
 package org.academy.model;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
 @NoArgsConstructor
-<<<<<<< HEAD
-@Entity
-=======
-@AllArgsConstructor
 @Entity(name = "usuarios")
->>>>>>> main
 public class Usuario {
 
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
