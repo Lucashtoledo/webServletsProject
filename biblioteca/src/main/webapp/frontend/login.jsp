@@ -20,6 +20,5 @@
     <c:if test="${param.erro !=null}">
         <p style="color: red;">Email ou senha inválidos!</p>
     </c:if>
-<a href="cadastrarUsuario.jsp">Cadastre-se</a>
 </body>
 </html>

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="biblioteca:war exploded" />
+      <artifact name="webServletsProject:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -11,16 +11,17 @@
   <component name="ChangeListManager">
     <list default="true" id="8676d734-cf1e-45ab-9a47-1d683c93bd5d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e29c729b-fffb-483f-9aea-7fb618c2d305.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e29c729b-fffb-483f-9aea-7fb618c2d305.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e29c729b-fffb-483f-9aea-7fb618c2d305/storage_v2/_src_/database/projeto1.bld5xA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e29c729b-fffb-483f-9aea-7fb618c2d305/storage_v2/_src_/database/projeto1.bld5xA/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bbf7eb1d-1808-4c60-a867-88283f8227d2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/bbf7eb1d-1808-4c60-a867-88283f8227d2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/HelloServlet.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/dao/LivroDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/dao/LivroDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/model/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/model/Categoria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/dao/UsuarioDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/dao/UsuarioDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/model/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/model/Livro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/model/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/model/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/servlet/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/webapp/WEB-INF/cadastroUsuario.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/src/main/webapp/frontend/cadastroUsuario.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/webapp/WEB-INF/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/src/main/webapp/frontend/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +38,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="dev2" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -90,7 +91,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Tomcat Server.Tomcat 10.1.25.executor": "Run",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "dev1",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/temp/ws-intellij/webServletsProject",
     "node.js.detected.package.eslint": "true",
@@ -107,7 +108,13 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\a867759\Desktop\projeto\webServletsProject\biblioteca\src\main\webapp" />
+      <recent name="C:\Users\a867759\Desktop\projeto\webServletsProject\biblioteca\src\main\webapp\frontend" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 10.1.25">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.academy.Main" />
       <module name="biblioteca" />
@@ -137,9 +144,9 @@
     <configuration name="Tomcat 10.1.25" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.25" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="biblioteca:war exploded">
+        <artifact name="webServletsProject:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/biblioteca_war_exploded" />
+            <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>

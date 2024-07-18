@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="projeto1@localhost">
   <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.52">
-<<<<<<< HEAD:.idea/dataSources/bbf7eb1d-1808-4c60-a867-88283f8227d2.xml
     <root id="1">
       <DateStyle>mdy</DateStyle>
       <Grants>1||-9223372036854775808|c|G
@@ -799,15 +798,6 @@ false Zulu
 </TimeZones>
     </root>
     <database id="2" parent="1" name="projeto1">
-=======
-    <root id="1"/>
-    <database id="2" parent="1" name="postgres">
-      <Comment>default administrative connection database</Comment>
-      <ObjectId>5</ObjectId>
-      <OwnerName>postgres</OwnerName>
-    </database>
-    <database id="3" parent="1" name="projeto1">
->>>>>>> main:.idea/dataSources/e29c729b-fffb-483f-9aea-7fb618c2d305.xml
       <Current>1</Current>
       <Grants>11||10|C|G
 11||-9223372036854775808|U|G

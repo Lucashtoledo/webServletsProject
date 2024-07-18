@@ -24,12 +24,9 @@ public class Livro {
     private String titulo;
     @Column(nullable = false)
     private Integer quantidade;
-<<<<<<< HEAD
 
-=======
     @ManyToMany
     private List<Categoria> categoria;
->>>>>>> main
 
     public Livro(Integer isbn, String titulo, Integer quantidade) {
         this.isbn = isbn;
@@ -37,6 +34,4 @@ public class Livro {
         this.quantidade = quantidade;
     }
 
-    @ManyToMany
-    private List<Categoria> categoria;
 }

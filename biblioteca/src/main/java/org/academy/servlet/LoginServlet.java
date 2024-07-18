@@ -31,7 +31,7 @@ public class LoginServlet extends HttpServlet {
 
        try{
            session.beginTransaction();
-           List<Usuario> usuarios = session.createQuery("from Usuario where email = :email and senha = :senha").setParameter("email", email).setParameter("senha", senha).getResultList();
+           List<Usuario> usuarios = session.createQuery("from usuarios where email = :email and senha = :senha").setParameter("email", email).setParameter("senha", senha).getResultList();
            session.getTransaction().commit();
 
            if(!usuarios.isEmpty()){
