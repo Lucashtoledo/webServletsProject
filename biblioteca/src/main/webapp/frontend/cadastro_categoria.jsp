@@ -16,6 +16,7 @@
     Nome: <input type="text" name="nome" required><br>
     <input type="submit" value="Cadastre-se">
 </form>
+<a href="lista_categorias.jsp">Listar Categorias</a>
 <a href="/index.jsp">Voltar</a>
 </body>
 </html>
