@@ -5,9 +5,9 @@
   <title>JSP - Hello World</title>
 </head>
 <body>
-<h1><%= "Hello World!" %></h1>
+<h1><%= "Biblioteca" %></h1>
 <br/>
-<a href="/frontend/login.jsp">Login</a>
-<a href="/frontend/cadastroUsuario.jsp">Cadastrar-se</a>
+<a href="/login.jsp">Login</a>
+<a href="/cadastroUsuario.jsp">Cadastrar-se</a>
 </body>
 </html>

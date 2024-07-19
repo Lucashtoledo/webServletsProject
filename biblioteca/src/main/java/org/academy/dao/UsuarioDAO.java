@@ -6,6 +6,7 @@ import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
+import org.hibernate.query.Query;
 
 import java.util.List;
 
@@ -41,12 +42,15 @@ public class UsuarioDAO {
     }
 
     // validacao por e-mail
-    public Usuario buscarPorEmail(String email){
+    public Usuario validarUsuario(String email, String senha) {
         try(Session session = factory.openSession()) {
-            return session.createQuery("from usuarios where email = :email", Usuario.class).setParameter("email", email).uniqueResult();
-        }catch(HibernateException e) {
+            Query<Usuario> query = session.createQuery("from usuarios where email = :email and senha = :senha", Usuario.class);
+            query.setParameter("email", email);
+            query.setParameter("senha", senha);
+            return query.uniqueResult();
+        }catch(Exception e) {
             e.printStackTrace();
-            throw new HibernateException("Erro ao fazer a busca por e-mail!: " + e.getMessage());
+            throw new RuntimeException("Erro ao validar o usuário: " + e.getMessage());
         }
     }
-}
+    }

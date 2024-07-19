@@ -7,6 +7,8 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
+import org.academy.dao.ServiceDAO;
+import org.academy.dao.UsuarioDAO;
 import org.academy.model.Usuario;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -17,33 +19,31 @@ import java.util.List;
 
 @WebServlet("/login")
 public class LoginServlet extends HttpServlet {
-    private SessionFactory sessionFactory;
+
+    private UsuarioDAO usuarioDAO;
 
     public void init() throws ServletException {
-        sessionFactory = new Configuration().configure("hibernate.cfg.xml").addAnnotatedClass(Usuario.class).buildSessionFactory();
+        usuarioDAO = new UsuarioDAO(ServiceDAO.getSessionFactory());
     }
 
-    public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String email = request.getParameter("email");
         String senha = request.getParameter("senha");
 
-       Session session = sessionFactory.getCurrentSession();
-
-       try{
-           session.beginTransaction();
-           List<Usuario> usuarios = session.createQuery("from usuarios where email = :email and senha = :senha").setParameter("email", email).setParameter("senha", senha).getResultList();
-           session.getTransaction().commit();
-
-           if(!usuarios.isEmpty()){
-               HttpSession httpSession = request.getSession();
-               httpSession.setAttribute("usuario", usuarios.get(0));
-               response.sendRedirect("index.jsp");
-           }else{
-               response.sendRedirect("login.jsp");
-           }
-       }finally {
-           session.close();
-       }
+        try{
+            Usuario usuario = usuarioDAO.validarUsuario(email, senha);
+            if(usuario != null){
+                HttpSession session = request.getSession();
+                session.setAttribute("usuario", usuario);
+                response.sendRedirect("index.jsp");
+            }else {
+                response.sendRedirect("error, tente novamente");
+                request.getRequestDispatcher("login.jsp").forward(request, response);
+            }
+        }catch (Exception e){
+            throw new ServletException(e);
+        }
     }
+
 
 }

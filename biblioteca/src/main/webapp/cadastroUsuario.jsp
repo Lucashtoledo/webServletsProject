@@ -17,7 +17,7 @@
         Email: <input type="text" name="email" required><br>
         Senha: <input type="password" name="senha" required><br>
         <input type="submit" value="Cadastre-se">
+        <button onclick="window.location.href='/index.jsp'">Voltar</button>
     </form>
-    <a href="login.jsp">Voltar</a>
 </body>
 </html>
