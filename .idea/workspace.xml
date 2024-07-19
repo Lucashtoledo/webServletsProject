@@ -10,11 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8676d734-cf1e-45ab-9a47-1d683c93bd5d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/servlet/CategoriaServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/biblioteca/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/servlet/CadastrarCategoria.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/webapp/frontend/cadastro_categoria.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/src/main/webapp/frontend/cadastro_categoria.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/biblioteca/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/.idea/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,6 +258,7 @@
       <workItem from="1721262943555" duration="5148000" />
       <workItem from="1721270109671" duration="184000" />
       <workItem from="1721341743644" duration="9214000" />
+      <workItem from="1721352763689" duration="800000" />
     </task>
     <servers />
   </component>
