@@ -9,22 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
     <list default="true" id="8676d734-cf1e-45ab-9a47-1d683c93bd5d" name="Changes" comment="" />
-=======
-    <list default="true" id="8676d734-cf1e-45ab-9a47-1d683c93bd5d" name="Changes" comment="">
-<<<<<<< HEAD
-      <change afterPath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/servlet/CategoriaServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/biblioteca/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/servlet/CadastrarCategoria.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/webapp/frontend/cadastro_categoria.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/src/main/webapp/frontend/cadastro_categoria.jsp" afterDir="false" />
-=======
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/servlet/UsuarioServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/servlet/UsuarioServlet.java" afterDir="false" />
->>>>>>> 1125df5086126c4cfa11c72f7d4ef8f10957f20b
-    </list>
->>>>>>> 9d2cf046dd422feb296c8c1031966967169cd525
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +19,6 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -47,33 +31,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
+    &quot;lastFilter&quot;: {
     &quot;state&quot;: &quot;OPEN&quot;,
     &quot;assignee&quot;: &quot;Lucashtoledo&quot;
-  }
-}</component>
+    }
+    }</component>
   <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;git@github.com:Lucashtoledo/webServletsProject.git&quot;,
     &quot;accountId&quot;: &quot;81492877-8b73-4547-836a-f1456e239a85&quot;
-  }
-}</component>
+    }
+    }</component>
   <component name="KubernetesApiPersistence">{}</component>
-<<<<<<< HEAD
   <component name="KubernetesApiProvider">{
-  &quot;isMigrated&quot;: true
-}</component>
-=======
-<<<<<<< HEAD
-  <component name="KubernetesApiProvider">{
-  &quot;isMigrated&quot;: true
-}</component>
-=======
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
->>>>>>> 1125df5086126c4cfa11c72f7d4ef8f10957f20b
->>>>>>> 9d2cf046dd422feb296c8c1031966967169cd525
+    &quot;isMigrated&quot;: true
+    }</component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -99,7 +71,6 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-<<<<<<< HEAD
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main (1).executor": "Run",
@@ -119,34 +90,6 @@
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "MavenSettings",
     "vue.rearranger.settings.migration": "true"
-=======
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-<<<<<<< HEAD
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Tomcat Server.Tomcat 10.1.25.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;dev2&quot;,
-=======
-    &quot;Maven.webServletsProject [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.webServletsProject [install].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Tomcat Server.Tomcat 10.1.25.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;dev1&quot;,
->>>>>>> 1125df5086126c4cfa11c72f7d4ef8f10957f20b
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/temp/ws-intellij/webServletsProject&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
->>>>>>> 9d2cf046dd422feb296c8c1031966967169cd525
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -156,12 +99,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-<<<<<<< HEAD
-      <recent name="C:\temp\ws-intellij\AcademiaJava\webServletsProject\biblioteca\src\main\webapp" />
-=======
       <recent name="C:\Users\a867759\Desktop\projeto\webServletsProject\biblioteca\src\main\webapp" />
       <recent name="C:\Users\a867759\Desktop\projeto\webServletsProject\biblioteca\src\main\webapp\frontend" />
->>>>>>> 1125df5086126c4cfa11c72f7d4ef8f10957f20b
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 10.1.25">
@@ -314,13 +253,7 @@
       <workItem from="1721255730539" duration="495000" />
       <workItem from="1721256242576" duration="288000" />
       <workItem from="1721256549143" duration="3604000" />
-<<<<<<< HEAD
-      <workItem from="1721262943555" duration="5148000" />
-      <workItem from="1721270109671" duration="184000" />
-      <workItem from="1721341743644" duration="9214000" />
-=======
       <workItem from="1721321067567" duration="13455000" />
->>>>>>> 1125df5086126c4cfa11c72f7d4ef8f10957f20b
     </task>
     <servers />
   </component>
