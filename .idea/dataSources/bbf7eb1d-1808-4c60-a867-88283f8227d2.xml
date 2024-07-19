@@ -797,12 +797,16 @@ false Z
 false Zulu
 </TimeZones>
     </root>
+<<<<<<< HEAD
     <database id="2" parent="1" name="postgres">
       <Comment>default administrative connection database</Comment>
       <ObjectId>5</ObjectId>
       <OwnerName>postgres</OwnerName>
     </database>
     <database id="3" parent="1" name="projeto1">
+=======
+    <database id="2" parent="1" name="projeto1">
+>>>>>>> 1125df5086126c4cfa11c72f7d4ef8f10957f20b
       <Current>1</Current>
       <Grants>11||10|C|G
 11||-9223372036854775808|U|G
