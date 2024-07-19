@@ -18,6 +18,12 @@ import java.io.IOException;
 @WebServlet("/usuario")
 public class UsuarioServlet extends HttpServlet {
 
+    private UsuarioDAO usuarioDAO;
+
+    public void init() throws ServletException {
+        usuarioDAO = new UsuarioDAO(ServiceDAO.getSessionFactory());
+    }
+
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String nome = request.getParameter("nome");
@@ -26,17 +32,14 @@ public class UsuarioServlet extends HttpServlet {
 
         Usuario usuario = new Usuario(nome, email, senha);
 
-        Transaction tx = null;
-        try(Session session = ServiceDAO.getSessionFactory().openSession()){
-            tx = session.beginTransaction();
-            session.persist(usuario);
-            tx.commit();
-            }catch(Exception e){
-            if(tx != null){
-                tx.rollback();
-            }
-            e.printStackTrace();
-        }
+       try {
+           usuarioDAO.salvar(usuario);
+           response.sendRedirect("index.jsp");
+       }catch (Exception e) {
+           e.printStackTrace();
+           throw new ServletException("Erro ao salvar o usuário", e);
+       }
+
         }
     }
 
