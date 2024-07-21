@@ -15,7 +15,7 @@ import org.hibernate.cfg.Configuration;
 
 import java.io.IOException;
 
-@WebServlet("/usuario")
+@WebServlet("/cadastro_usuario")
 public class UsuarioServlet extends HttpServlet {
 
     private UsuarioDAO usuarioDAO;
