@@ -9,18 +9,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Área do bibliotecário</title>
+    <title>Área do Bibliotecário</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 <div class="overlay"></div>
-<h1>Bem-vindo, <%= ((org.academy.model.Usuario) session.getAttribute("usuario")).getNome() %>!</h1>
-<br/>
-<a href="/gerenciarLivros.jsp">Gerenciar Livros</a>
-<a href="/gerenciarCategorias.jsp">Gerenciar Categorias</a>
-<form action="logout" method="post">
-    <input type="submit" value="Logout">
-</form>
+
+<!-- Cabeçalho com nome do usuário e botão de logout -->
+<header>
+    <div class="user-info">
+        <span>Bem-vindo, <%= ((org.academy.model.Usuario) session.getAttribute("usuario")).getNome() %>!</span>
+        <form action="logout" method="post" class="logout-form">
+            <input type="submit" value="Logout">
+        </form>
+    </div>
+</header>
+
+<!-- Conteúdo principal -->
+<div class="content">
+    <h1>Área do Bibliotecário</h1>
+    <br/>
+    <nav>
+        <ul class="nav-menu">
+            <li><a href="/gerenciarLivros.jsp">Gerenciar Livros</a></li>
+            <li><a href="/gerenciarCategorias.jsp">Gerenciar Categorias</a></li>
+        </ul>
+    </nav>
+</div>
 </body>
 </html>
+
 

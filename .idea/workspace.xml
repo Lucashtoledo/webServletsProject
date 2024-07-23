@@ -11,12 +11,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8676d734-cf1e-45ab-9a47-1d683c93bd5d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/webapp/cadastroUsuario.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/src/main/webapp/cadastroUsuario.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/webapp/catalogo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/src/main/webapp/catalogo.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/biblioteca/src/main/webapp/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/src/main/webapp/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/biblioteca/src/main/webapp/index2.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/src/main/webapp/index2.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/src/main/webapp/login.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +85,7 @@
     "Maven.webServletsProject [install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Tomcat Server.Tomcat 10.1.25.executor": "Coverage",
+    "Tomcat Server.Tomcat 10.1.25.executor": "Run",
     "git-widget-placeholder": "dev1",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/a867759/Desktop/ACADEMIA JAVA/Academia_java_UFN_2024/Professor Lucas/Sallenkon_Almeida/exercicios/aula_spring/aula_01",
@@ -274,11 +270,15 @@
       <workItem from="1721748010494" duration="3271000" />
       <workItem from="1721772380329" duration="1053000" />
       <workItem from="1721773472625" duration="324000" />
-      <workItem from="1721775274332" duration="2171000" />
+      <workItem from="1721775274332" duration="2381000" />
+      <workItem from="1721777717266" duration="714000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/webServletsProject$Tomcat_10_1_25.ic" NAME="Tomcat 10.1.25 Coverage Results" MODIFIED="1721777328441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
   </component>
 </project>
