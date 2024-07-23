@@ -13,6 +13,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+<div class="overlay"></div>
     <h2>Login</h2>
 <form action="login" method="post">
     Email: <input type="text" name="email" required><br>

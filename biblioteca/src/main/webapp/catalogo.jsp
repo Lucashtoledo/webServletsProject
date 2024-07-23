@@ -13,7 +13,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-
+<div class="overlay"></div>
 <h1>Catálogo de Livros</h1>
 
 <!-- Barra de busca -->

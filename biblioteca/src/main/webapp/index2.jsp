@@ -13,6 +13,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+<div class="overlay"></div>
 <h1>Bem-vindo, <%= ((org.academy.model.Usuario) session.getAttribute("usuario")).getNome() %>!</h1>
 <br/>
 <a href="/gerenciarLivros.jsp">Gerenciar Livros</a>

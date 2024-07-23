@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+<div class="overlay"></div>
     <h2>Cadastro de usuários</h2>
     <form action="/cadastro_usuario" method="post">
         Nome: <input type="text" name="nome" required><br>
