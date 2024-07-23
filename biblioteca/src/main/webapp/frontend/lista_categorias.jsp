@@ -1,4 +1,9 @@
-<%--
+<%@ page import="org.academy.dao.LivroDAO" %>
+<%@ page import="java.util.List" %>
+<%@ page import="org.academy.model.Livro" %>
+<%@ page import="java.util.ArrayList" %>
+<%@ page import="org.academy.model.Categoria" %>
+<%@ page import="org.academy.dao.CategoriaDAO" %><%--
   Created by IntelliJ IDEA.
   User: lucas
   Date: 18/07/2024
@@ -14,17 +19,22 @@
     <h1>Categorias</h1>
     <thread>
         <tr>
-            <th>ID</th>
-            <th>Nome</th>
+            <th>Categoria:</th>
         </tr>
     </thread>
     <tbody>
-        <c:forEach var="categoria" items="${categorias}">
-            <tr>
-                <td>${categoria.id}</td>
-                <td>${categoria.nome}</td>
-            </tr>
-        </c:forEach>
+        <%
+            CategoriaDAO categoriaDAO = new CategoriaDAO();
+            List<Categoria> list = categoriaDAO.findAll();
+            for (Categoria categoria : list) {
+        %>
+        <tr>
+            <br><td><%= categoria.getNome() %></td>
+        </tr>
+        <%
+
+            }
+        %>
     </tbody>
 </body>
 </html>
