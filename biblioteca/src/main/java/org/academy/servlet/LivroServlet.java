@@ -26,6 +26,19 @@ public class LivroServlet extends HttpServlet {
     }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
+
+        String acao = request.getParameter("acao");
+
+        if (acao == null) {
+            acao = "list";
+        }
+
+        switch (acao) {
+            case "delete":
+                deleteLivro(request, response);
+                break;
+        }
+
         int isbn = Integer.parseInt(request.getParameter("isbn"));
         String titulo = request.getParameter("titulo");
         String categoria = request.getParameter("categoria");
@@ -33,5 +46,12 @@ public class LivroServlet extends HttpServlet {
         Livro livro = new Livro(isbn, titulo, quantidade, categoria);
         dao.save(livro);
         response.sendRedirect("frontend/cadastro_livro.jsp");
+    }
+
+
+    private void deleteLivro(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        Long id = Long.parseLong(request.getParameter("id"));
+        dao.deleteByID(id);
+        response.sendRedirect("frontend/gerenciar_livro.jsp");
     }
 }

@@ -1,0 +1,122 @@
+/* styles.css */
+body {
+    background-color: #2e2e2e;
+    color: #d3c6aa;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #e2c08d;
+}
+
+input[type="text"], input[type="password"] {
+    background-color: #3e3e3e;
+    border: 1px solid #555;
+    color: #d3c6aa;
+    padding: 5px;
+    margin: 10px 0;
+    width: 100%;
+}
+
+input[type="submit"], button {
+    background-color: #5e5e5e;
+    border: 1px solid #777;
+    color: #d3c6aa;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover, button:hover {
+    background-color: #7e7e7e;
+}
+
+form {
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #3e3e3e;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+p {
+    color: #e2c08d;
+}
+
+a {
+    color: #e2c08d;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Adiciona estilo para a imagem */
+img.book-cover {
+    width: 900px;
+    height: auto;
+    border: 2px solid #555;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 10px;
+}
+
+/* Estilo para a grid de livros */
+.book-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+/* Estilo para o menu de login */
+.login-menu {
+    position: fixed; /* Altere para fixed para fixar no canto superior direito */
+    top: 10px;
+    right: 10px;
+    display: inline-block;
+}
+
+.login-button {
+    background-color: #5e5e5e;
+    border: 1px solid #777;
+    color: #d3c6aa;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.login-dropdown {
+    display: none;
+    position: absolute;
+    top: 100%; /* Posiciona o dropdown logo abaixo do botão */
+    right: 0;
+    background-color: #3e3e3e;
+    border: 1px solid #555;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000; /* Garante que o dropdown fique acima de outros elementos */
+}
+
+.login-dropdown a {
+    display: block;
+    padding: 10px 20px;
+    color: #e2c08d;
+    text-decoration: none;
+}
+
+.login-dropdown a:hover {
+    background-color: #555;
+}
+
+/* Mostra o dropdown ao passar o mouse sobre o menu */
+.login-menu:hover .login-dropdown {
+    display: block;
+}

@@ -2,14 +2,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>JSP - Hello World</title>
+  <title>Biblioteca</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-<h1><%= "Biblioteca" %></h1>
-<br/>
-<a href="/login.jsp">Login</a><br>
-<a href="/cadastroUsuario.jsp">Cadastrar-se</a><br>
-<a href="frontend/cadastro_livro.jsp">Cadastrar Livro</a><br>
-<a href="frontend/listar_livros.jsp">Listar Livros</a><br>
+  <h1>Biblioteca</h1>
+
+  <!-- Menu de Login -->
+  <div class="login-menu">
+      <button class="login-button">Login</button>
+      <div class="login-dropdown">
+          <a href="login.jsp">Login</a>
+          <a href="cadastroUsuario.jsp">Cadastrar-se</a>
+      </div>
+  </div>
+
+  <!-- Grid de imagens de livros -->
+  <div class="book-grid">
+    <img src="images/book.jpg" alt="Books" class="book-cover">
+    <!-- Adicione mais imagens conforme necessário -->
+  </div>
 </body>
 </html>

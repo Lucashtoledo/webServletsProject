@@ -11,15 +11,25 @@
     <title>Cadastro de livro</title>
 </head>
 <body>
-<h2>Cadastrar</h2>
-<form action="../livro" method="post">
-    ISBN: <input type="text" name="isbn" required><br>
-    Titulo: <input type="text" name="titulo" required><br>
-    Categoria: <input type="text" name="categoria" required><br>
-    Quantidade: <input type="text" name="quantidade" required><br>
-    <input type="submit" value="Cadastrar">
-</form>
-<a href="/frontend/listar_livros.jsp">Listar Livros</a>
-<a href="/index.jsp">Voltar</a>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index2.jsp">Home</a> </li>
+                <li><a href="listar_livros.jsp">Catálogo</a> </li>
+                <li><a href="cadastro_livro.jsp">Cadastrar Livros</a> </li>
+                <li><a href="listar_livros.jsp">Listar Livros</a> </li>
+                <li><a href="gerenciar_livros.jsp">Gerenciar Livros</a> </li>
+            </ul>
+        </nav>
+    </header>
+    <h2>Cadastrar</h2>
+    <form action="../livro" method="post">
+        ISBN: <input type="text" name="isbn" required><br>
+        Titulo: <input type="text" name="titulo" required><br>
+        Categoria: <input type="text" name="categoria" required><br>
+        Quantidade: <input type="text" name="quantidade" required><br>
+        <input type="submit" value="Cadastrar">
+    </form>
+
 </body>
 </html>
