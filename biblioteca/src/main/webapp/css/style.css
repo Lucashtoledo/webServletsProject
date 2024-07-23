@@ -1,11 +1,13 @@
 /* styles.css */
 body {
-    background-color: #2e2e2e;
+    background: url('../images/book.jpg') no-repeat center center fixed;
+    background-size: cover;
     color: #d3c6aa;
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
     text-align: center;
+    position: relative;
 }
 
 h1, h2 {
@@ -119,4 +121,30 @@ img.book-cover {
 /* Mostra o dropdown ao passar o mouse sobre o menu */
 .login-menu:hover .login-dropdown {
     display: block;
+}
+
+
+
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1); /* Ajuste a opacidade conforme necessário */
+    z-index: -1; /* Coloca a camada de fundo atrás do conteúdo */
+}
+
+h1 {
+    color: #fff; /* Ajuste a cor do texto conforme necessário */
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Outros estilos podem ir aqui */
+form, .livro-lista {
+    color: #fff; /* Ajuste a cor do texto conforme necessário */
+    padding: 20px;
 }

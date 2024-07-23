@@ -23,7 +23,7 @@
 
 <!-- Grid de imagens de livros -->
 <div class="book-grid">
-  <img src="images/book.jpg" alt="Books" class="book-cover">
+
   <!-- Adicione mais imagens conforme necessário -->
 </div>
 </body>

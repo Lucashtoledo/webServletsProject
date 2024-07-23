@@ -44,6 +44,4 @@ public class LoginServlet extends HttpServlet {
             throw new ServletException(e);
         }
     }
-
-
 }
