@@ -34,7 +34,7 @@ public class UsuarioServlet extends HttpServlet {
 
         try {
             usuarioDAO.salvar(usuario);
-            response.sendRedirect("index.jsp");
+            response.sendRedirect("/frontend/index.jsp");
         }catch (Exception e) {
             e.printStackTrace();
             throw new ServletException("Erro ao salvar o usuário", e);

@@ -35,10 +35,10 @@ public class LoginServlet extends HttpServlet {
             if(usuario != null){
                 HttpSession session = request.getSession();
                 session.setAttribute("usuario", usuario);
-                response.sendRedirect("index.jsp");
+                response.sendRedirect("/frontend/index2.jsp");
             }else {
                 response.sendRedirect("error, tente novamente");
-                request.getRequestDispatcher("login.jsp").forward(request, response);
+                request.getRequestDispatcher("/frontend/login.jsp").forward(request, response);
             }
         }catch (Exception e){
             throw new ServletException(e);

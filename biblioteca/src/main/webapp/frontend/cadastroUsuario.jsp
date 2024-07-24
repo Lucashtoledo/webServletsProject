@@ -14,12 +14,12 @@
 <body>
 <div class="overlay"></div>
     <h2>Cadastro de usuários</h2>
-    <form action="/cadastro_usuario" method="post">
+    <form action="../usuario" method="post">
         Nome: <input type="text" name="nome" required><br>
         Email: <input type="text" name="email" required><br>
         Senha: <input type="password" name="senha" required><br>
         <input type="submit" value="Cadastre-se">
-        <button onclick="window.location.href='/index.jsp'">Voltar</button>
+        <button onclick="window.location.href='index.jsp'">Voltar</button>
     </form>
 </body>
 </html>

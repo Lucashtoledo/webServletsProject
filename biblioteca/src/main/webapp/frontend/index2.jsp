@@ -1,10 +1,4 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: a867759
-  Date: 7/20/2024
-  Time: 6:30 PM
-  To change this template use File | Settings | File Templates.
---%>
+
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html>
@@ -31,8 +25,9 @@
     <br/>
     <nav>
         <ul class="nav-menu">
-            <li><a href="/gerenciarLivros.jsp">Gerenciar Livros</a></li>
-            <li><a href="/gerenciarCategorias.jsp">Gerenciar Categorias</a></li>
+            <li><a href="index2.jsp">HOME</a></li>
+            <li><a href="gerenciar_livros.jsp">GERENCIAR LIVROS</a></li>
+            <li><a href="listar_livros.jsp">LISTAR LIVROS</a></li>
         </ul>
     </nav>
 </div>

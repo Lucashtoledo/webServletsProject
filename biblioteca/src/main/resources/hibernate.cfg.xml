@@ -20,6 +20,5 @@
         <!-- Mapeamento de Classes -->
         <mapping class="org.academy.model.Livro"/>
         <mapping class="org.academy.model.Usuario"/>
-        <mapping class="org.academy.model.Categoria"/>
     </session-factory>
 </hibernate-configuration>

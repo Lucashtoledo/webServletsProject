@@ -15,15 +15,14 @@
 <body>
 <div class="overlay"></div>
     <h2>Login</h2>
-<form action="login" method="post">
+<form action="/login" method="post">
     Email: <input type="text" name="email" required><br>
     Senha: <input type="password" name="senha" required><br>
     <input type="submit" value="Login">
-    <button onclick="window.location.href='/index.jsp'">Voltar</button>
+    <button onclick="window.location.href='index.jsp'">Voltar</button>
 </form>
-
-    <c:if test="${param.erro !=null}">
-        <p style="color: red;">Email ou senha inválidos!</p>
-    </c:if>
+        <c:if test="${param.erro !=null}">
+            <p style="color: red;">Email ou senha inválidos!</p>
+        </c:if>
 </body>
 </html>

@@ -1,13 +1,9 @@
 package org.academy.model;
 
-import org.academy.model.Categoria;
-
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
-import java.util.List;
 
 @Data
 @NoArgsConstructor
@@ -24,10 +20,15 @@ public class Livro {
     private String titulo;
     @Column(nullable = false)
     private Integer quantidade;
+    @Column
+    private String categoria;
 
-    @ManyToMany
-    private List<Categoria> categoria;
-
+    public Livro(Integer isbn, String titulo, Integer quantidade, String categoria) {
+        this.isbn = isbn;
+        this.titulo = titulo;
+        this.quantidade = quantidade;
+        this.categoria = categoria;
+    }
     public Livro(Integer isbn, String titulo, Integer quantidade) {
         this.isbn = isbn;
         this.titulo = titulo;
