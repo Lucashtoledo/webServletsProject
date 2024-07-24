@@ -34,6 +34,6 @@ public class BuscaLivrosServlet extends HttpServlet {
             livros = livroDAO.findAll();
         }
         request.setAttribute("livros", livros);
-        request.getRequestDispatcher("/catalogo.jsp").forward(request, response);
+        request.getRequestDispatcher("frontend/catalogo.jsp").forward(request, response);
     }
 }

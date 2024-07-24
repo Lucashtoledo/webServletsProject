@@ -23,6 +23,6 @@ public class CatalogoServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         List<Categoria> categorias = categoriaDAO.findAll();
         request.setAttribute("categorias", categorias);
-        request.getRequestDispatcher("/catalogo.jsp").forward(request, response);
+        request.getRequestDispatcher("frontend/catalogo.jsp").forward(request, response);
     }
 }

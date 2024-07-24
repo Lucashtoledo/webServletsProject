@@ -3,7 +3,7 @@
 <html>
 <head>
   <title>Biblioteca</title>
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body>
 <div class="overlay"></div>
@@ -29,10 +29,10 @@
 
 <!-- Grid de imagens de livros -->
   <div class="book-grid">
-    <img src="images/book1.jpg" alt="Book 1" class="book-cover">
-    <img src="images/book2.jpg" alt="Book 2" class="book-cover">
-    <img src="images/book3.jpg" alt="Book 3" class="book-cover">
-    <img src="images/book4.jpg" alt="Book 4" class="book-cover">
+    <img src="../images/book1.jpg" alt="Book 1" class="book-cover">
+    <img src="../images/book2.jpg" alt="Book 2" class="book-cover">
+    <img src="../images/book3.jpg" alt="Book 3" class="book-cover">
+    <img src="../images/book4.jpg" alt="Book 4" class="book-cover">
 </div>
 <!-- Rodapé -->
 <footer>

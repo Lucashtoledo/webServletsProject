@@ -10,7 +10,7 @@
 <html>
 <head>
     <title>Login</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body>
 <div class="overlay"></div>

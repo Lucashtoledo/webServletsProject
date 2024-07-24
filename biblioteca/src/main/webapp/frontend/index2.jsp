@@ -10,7 +10,7 @@
 <html>
 <head>
     <title>Área do Bibliotecário</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body>
 <div class="overlay"></div>
@@ -19,7 +19,7 @@
 <header>
     <div class="user-info">
         <span>Bem-vindo, <%= ((org.academy.model.Usuario) session.getAttribute("usuario")).getNome() %>!</span>
-        <form action="logout" method="post" class="logout-form">
+        <form action="../logout" method="post" class="logout-form">
             <input type="submit" value="Logout">
         </form>
     </div>
