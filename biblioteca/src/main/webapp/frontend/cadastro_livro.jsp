@@ -15,8 +15,6 @@
         <nav>
             <ul>
                 <li><a href="../index2.jsp">Home</a> </li>
-                <li><a href="listar_livros.jsp">Catálogo</a> </li>
-                <li><a href="cadastro_livro.jsp">Cadastrar Livros</a> </li>
                 <li><a href="listar_livros.jsp">Listar Livros</a> </li>
                 <li><a href="gerenciar_livros.jsp">Gerenciar Livros</a> </li>
             </ul>
@@ -24,6 +22,7 @@
     </header>
     <h2>Cadastrar</h2>
     <form action="../livro" method="post">
+        <input type="hidden" name="acao" value="adicionar">
         ISBN: <input type="text" name="isbn" required><br>
         Titulo: <input type="text" name="titulo" required><br>
         Categoria: <input type="text" name="categoria" required><br>
