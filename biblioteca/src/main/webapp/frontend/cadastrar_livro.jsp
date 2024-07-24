@@ -1,14 +1,17 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: lucas
+  Date: 24/07/2024
+  Time: 02:50
+  To change this template use File | Settings | File Templates.
+--%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<!DOCTYPE html>
 <html>
 <head>
-    <title>Área do Bibliotecário</title>
+    <title>Cadastrar Livro</title>
     <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body>
-<div class="overlay"></div>
-
-<!-- Cabeçalho com nome do usuário e botão de logout -->
 <header>
     <nav>
         <ul class="nav-menu">
@@ -23,12 +26,17 @@
         </ul>
     </nav>
 </header>
-
-<!-- Conteúdo principal -->
 <main>
-    <h1>Área do Bibliotecário</h1>
-    <br/>
-
+    <div class="cad-container">
+    <form action="../livro" method="post">
+        ISBN: <br><input type="text" name="isbn" required><br>
+        Título: <br><input type="text" name="titulo" required><br>
+        Categoria: <br><input type="text" name="categoria" required><br>
+        Quantidade: <br><input type="text" name="quantidade" required><br>
+        <input type="hidden" name="acao" value="adicionar">
+        <input type="submit" value="Adicionar">
+    </form>
+    </div>
 </main>
 <footer>
     <p>&copy; 2024 Biblioteca. Todos os direitos reservados.</p>
@@ -36,5 +44,3 @@
 </footer>
 </body>
 </html>
-
-

@@ -10,16 +10,19 @@
 <head>
     <title>Catálogo de Livros</title>
 </head>
-<style>
-
-</style>
+<link rel="stylesheet" type="text/css" href="../css/style.css">
 <body>
 <header>
     <nav>
-        <ul>
-            <li><a href="../index2.jsp">Home</a> </li>
-            <li><a href="listar_livros.jsp">Listar Livros</a> </li>
-            <li><a href="gerenciar_livros.jsp">Gerenciar Livros</a> </li>
+        <ul class="nav-menu">
+            <li><a href="index2.jsp">HOME</a></li>
+            <li><a href="gerenciar_livros.jsp">GERENCIAR LIVROS</a></li>
+            <li><a href="listar_livros.jsp">LISTAR LIVROS</a></li>
+            <li id="logout">
+                <form id="logout-form" action="../logout" method="post" style="display: none;"></form>
+                <a href="#" onclick="document.getElementById('logout-form').submit(); return false;">LOGOUT</a>
+            </li>
+
         </ul>
     </nav>
 </header>
@@ -28,14 +31,7 @@
 
     <section id="Adicionar">
         <h2>Adicionar Livro</h2>
-        <form action="../livro" method="post">
-            ISBN: <input type="text" name="isbn" required><br>
-            Título: <input type="text" name="titulo" required><br>
-            Categoria: <input type="text" name="categoria" required><br>
-            Quantidade: <input type="text" name="quantidade" required><br>
-            <input type="hidden" name="acao" value="adicionar">
-            <input type="submit" value="Adicionar">
-        </form>
+
     </section>
     <p>-------------------------------------------------------------------------</p>
     <section id="editar">
@@ -67,7 +63,10 @@
     </section>
 </main>
 
-<footer>@Todos os direitos reservados</footer>
+<footer>
+    <p>&copy; 2024 Biblioteca. Todos os direitos reservados.</p>
+    <p><a href="">Fale Conosco</a> | <a href="">Política de Privacidade</a></p>
+</footer>
 <%
     // Acessar a mensagem da sessão
     session = request.getSession(false);

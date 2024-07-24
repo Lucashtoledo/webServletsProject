@@ -48,7 +48,7 @@ public class LivroServlet extends HttpServlet {
 
         HttpSession session = request.getSession();
         session.setAttribute("mensagem", mensagem);
-        response.sendRedirect(request.getContextPath() + "/frontend/gerenciar_livros.jsp");
+        response.sendRedirect(request.getContextPath() + "/frontend/listar_livros.jsp");
     }
 
     private String addLivro(HttpServletRequest request, HttpServletResponse response) {

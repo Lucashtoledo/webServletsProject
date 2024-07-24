@@ -29,14 +29,11 @@ public class UsuarioServlet extends HttpServlet {
         String nome = request.getParameter("nome");
         String email = request.getParameter("email");
         String senha = request.getParameter("senha");
-
         Usuario usuario = new Usuario(nome, email, senha);
-
         try {
             usuarioDAO.salvar(usuario);
             response.sendRedirect("/frontend/index.jsp");
         }catch (Exception e) {
-            e.printStackTrace();
             throw new ServletException("Erro ao salvar o usuário", e);
         }
 

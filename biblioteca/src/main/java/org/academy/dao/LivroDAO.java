@@ -19,7 +19,7 @@ public class LivroDAO {
 
     public List<Livro> findAll() {
         try (Session session = factory.openSession()) {
-            return session.createQuery("from livros").list();
+            return session.createQuery("from livros order by id").list();
         } catch (Exception e) {
             e.printStackTrace();
             throw new HibernateException("Não foi possível encontrar todos os livros: " + e.getMessage());
