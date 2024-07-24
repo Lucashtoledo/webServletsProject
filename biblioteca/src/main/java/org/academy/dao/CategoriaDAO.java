@@ -14,6 +14,9 @@ public class CategoriaDAO {
 
     private SessionFactory factory = ServiceDAO.getSessionFactory();
 
+    public CategoriaDAO(SessionFactory sessionFactory) {
+    }
+
     public List<Categoria> findAll(){
         try (Session session = factory.openSession()) {
             return session.createQuery("from categorias").list();

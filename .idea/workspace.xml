@@ -9,7 +9,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8676d734-cf1e-45ab-9a47-1d683c93bd5d" name="Changes" comment="" />
+    <list default="true" id="8676d734-cf1e-45ab-9a47-1d683c93bd5d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/servlet/BuscaLivrosServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/servlet/CatalogoServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/servlet/LogoutServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca/src/main/webapp/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca/src/main/webapp/frontend/catalogo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca/src/main/webapp/frontend/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca/src/main/webapp/frontend/index2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca/src/main/webapp/images/book.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca/src/main/webapp/images/book1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca/src/main/webapp/images/book2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca/src/main/webapp/images/book3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca/src/main/webapp/images/book4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca/src/main/webapp/images/books.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/dao/CategoriaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/dao/CategoriaDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/dao/LivroDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/dao/LivroDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/servlet/CategoriaServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/webapp/cadastroUsuario.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/src/main/webapp/frontend/cadastroUsuario.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/src/main/webapp/frontend/login.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,9 +65,9 @@
     }
     }</component>
   <component name="KubernetesApiPersistence">{}</component>
-  <component name="KubernetesApiProvider">{
-    &quot;isMigrated&quot;: true
-    }</component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -80,7 +102,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Tomcat Server.Tomcat 10.1.25.executor": "Run",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Merging main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/temp/ws-intellij/webServletsProject",
     "node.js.detected.package.eslint": "true",
@@ -211,10 +233,8 @@
         </SHUTDOWN>
       </ConfigurationWrapper>
       <method v="2">
-        <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="webServletsProject:war exploded" />
-          <artifact name="biblioteca:war exploded" />
         </option>
       </method>
     </configuration>

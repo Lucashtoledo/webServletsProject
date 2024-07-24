@@ -6,6 +6,7 @@ import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
+import org.hibernate.query.Query;
 
 
 import java.util.List;
@@ -13,6 +14,9 @@ import java.util.List;
 public class LivroDAO {
 
     private SessionFactory factory = ServiceDAO.getSessionFactory();
+
+    public LivroDAO(SessionFactory sessionFactory) {
+    }
 
     public List<Livro> findAll(){
         try (Session session = factory.openSession()) {
@@ -76,6 +80,28 @@ public class LivroDAO {
             }
             e.printStackTrace();
             throw new HibernateException("Erro ao atualizar Livro    " + e.getMessage());
+        }
+    }
+
+    public List<Livro> buscarPorTitulo(String titulo) {
+        try (Session session = factory.openSession()) {
+            Query<Livro> query = session.createQuery("from livros where titulo like :titulo", Livro.class);
+            query.setParameter("titulo", "%" + titulo + "%");
+            return query.getResultList();
+        }catch (Exception e) {
+            e.printStackTrace();
+            throw new HibernateException("Erro ao buscar Livros por título" + e.getMessage());
+        }
+    }
+
+    public List<Livro> buscarPorCategoria(String categoria) {
+        try (Session session = factory.openSession()) {
+            Query<Livro> query = session.createQuery("from livros where categorias.nome = :categoria", Livro.class);
+            query.setParameter("categoria", categoria);
+            return query.getResultList();
+        }catch (Exception e) {
+            e.printStackTrace();
+            throw new HibernateException("Erro ao buscar Livros por categoria" + e.getMessage());
         }
     }
 
