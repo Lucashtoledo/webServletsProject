@@ -9,19 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8676d734-cf1e-45ab-9a47-1d683c93bd5d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/servlet/BuscaLivrosServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/servlet/BuscaLivrosServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/servlet/CatalogoServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/servlet/CatalogoServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/servlet/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/servlet/LogoutServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/servlet/LogoutServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/servlet/UsuarioServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/src/main/java/org/academy/servlet/UsuarioServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/webapp/cadastroUsuario.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/src/main/webapp/frontend/cadastroUsuario.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/webapp/catalogo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/src/main/webapp/frontend/catalogo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/src/main/webapp/frontend/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/webapp/index2.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/src/main/webapp/frontend/index2.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/biblioteca/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/src/main/webapp/frontend/login.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="8676d734-cf1e-45ab-9a47-1d683c93bd5d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -279,7 +267,7 @@
       <workItem from="1721772380329" duration="1053000" />
       <workItem from="1721773472625" duration="324000" />
       <workItem from="1721775274332" duration="2381000" />
-      <workItem from="1721777717266" duration="1796000" />
+      <workItem from="1721777717266" duration="2381000" />
     </task>
     <servers />
   </component>
