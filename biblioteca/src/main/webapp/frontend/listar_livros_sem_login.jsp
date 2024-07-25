@@ -12,10 +12,10 @@
 <header>
     <nav>
         <ul>
-            <li><a href="../index.jsp">HOME</a></li>
+            <li><a href="index.jsp">HOME</a></li>
             <li><a href="listar_livros_sem_login.jsp">LISTAR LIVROS</a></li>
             <li class="login"><a href="login.jsp">LOGIN</a></li>
-            <li class="login"><a href="login.jsp">CADASTRE-SE</a></li>
+            <li class="login"><a href="cadastroUsuario.jsp.jsp">CADASTRE-SE</a></li>
         </ul>
     </nav>
 </header>

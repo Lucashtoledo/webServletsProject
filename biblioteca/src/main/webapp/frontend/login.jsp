@@ -1,10 +1,3 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: a867759
-  Date: 7/14/2024
-  Time: 11:43 AM
-  To change this template use File | Settings | File Templates.
---%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
@@ -20,13 +13,19 @@
             Email: <input type="text" name="email" required><br>
             Senha: <input type="password" name="senha" required><br>
             <input type="submit" value="Login">
-            <button onclick="window.location.href='index.jsp'">Voltar</button>
+            <button type="button" onclick="window.location.href='index.jsp'">Voltar</button>
         </form>
-        <c:if test="${param.erro !=null}">
-            <p style="color: red;">Email ou senha inválidos!</p>
-        </c:if>
     </div>
 </main>
+
+<script>
+    window.onload = function() {
+        const urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.has('error')) {
+            alert('Usuário ou senha incorretos');
+        }
+    };
+</script>
 
 </body>
 </html>

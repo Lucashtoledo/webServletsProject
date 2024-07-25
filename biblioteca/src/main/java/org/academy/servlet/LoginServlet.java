@@ -37,13 +37,13 @@ public class LoginServlet extends HttpServlet {
                 session.setAttribute("usuario", usuario);
                 response.sendRedirect("/frontend/index2.jsp");
             }else {
-                response.sendRedirect("error, tente novamente");
-                request.getRequestDispatcher("/frontend/login.jsp").forward(request, response);
+                response.sendRedirect("/frontend/login.jsp?error=true");
             }
         }catch (Exception e){
             throw new ServletException(e);
         }
     }
+
 
 
 }

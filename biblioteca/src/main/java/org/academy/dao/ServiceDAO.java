@@ -17,5 +17,4 @@ public class ServiceDAO {
             throw new ExceptionInInitializerError("Erro na configuração do Hibernate" + e);
         }
     }
-
 }
